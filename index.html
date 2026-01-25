@@ -15,7 +15,7 @@
             background-color: #f5f5f5;
             font-family: "Outfit", Arial, sans-serif;
         }
-        
+
         .container {
             width: 100%;
             table-layout: fixed;
@@ -41,6 +41,60 @@
         a {
             text-decoration: none;
         }
+
+        /* Fluid Typography for Mobile (Maintains Desktop Layout but fits screen) */
+        @media screen and (max-width: 600px) {
+
+            /* Scale down headings */
+            h1 {
+                font-size: 20px !important;
+            }
+
+            h2 {
+                font-size: 16px !important;
+            }
+
+            /* Scale down body text */
+            p,
+            span,
+            a,
+            strong {
+                font-size: 13px !important;
+                line-height: 1.4 !important;
+            }
+
+            /* Reduce padding to give columns more space */
+            .contact-info {
+                padding: 15px !important;
+            }
+
+            .header {
+                padding: 20px 15px !important;
+            }
+
+            .content {
+                padding: 0 10px !important;
+            }
+
+            /* Ensure images fit */
+            img {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            /* Specific fix for Account Details to fit side-by-side */
+            td[style*="background: #FFFFFFCC"] {
+                padding: 12px !important;
+            }
+
+            td[style*="padding-left:10px"] {
+                padding-left: 5px !important;
+            }
+
+            td[style*="padding-right:10px"] {
+                padding-right: 5px !important;
+            }
+        }
     </style>
     <!--[if mso]>
     <style>
@@ -59,16 +113,15 @@
         <table class="content" cellpadding="0" cellspacing="0"
             style="max-width: 600px; background-color: #ffffff; margin: 0 auto; border-radius: 8px; overflow: hidden; padding: 0px 24px; width: 100%;">
             <tr>
-                <td align="center" 
-                    style="padding:0; border-radius:0 0 0px 0px;">
+                <td align="center">
 
                     <!-- Banner Image -->
                     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                             <td align="center">
                                 <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769290325/Group_47245_hvzgbt.png"
-                                    alt="Banner" width="580"
-                                    style="display:block;width:100%;max-width:580px;border:0;border-radius:16px;" />
+                                    alt="Banner" width="576" height="297"
+                                    style="display:block; width:100%; max-width: 576px; min-width: 576px; border:0; border-radius:16px;" />
                             </td>
                         </tr>
                     </table>
@@ -144,6 +197,7 @@
                             </td>
                         </tr>
                         <!-- Contact Info -->
+
                         <tr>
                             <td style="padding:0px 24px 20px 24px; border-bottom: 1px solid #C1EAF5;">
                                 <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
@@ -216,6 +270,7 @@
                                 </table>
                             </td>
                         </tr>
+
                         <!-- Membership info -->
 
                         <tr>
@@ -381,7 +436,7 @@
 
                                         <!-- RIGHT INFO -->
                                         <td width="72%" valign="top" align="left"
-                                            style="background: #FFFFFFCC; padding:24px 32px; border-radius:16px;">
+                                            style="background: #FFFFFFCC; padding:24px 0px 24px 32px; border-radius:16px;">
                                             <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                                                 <tr>
                                                     <!-- Starting Date -->
