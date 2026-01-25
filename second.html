@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <title>StartHub Office is Live</title>
+    <title>StartHub - Welcome Email</title>
     <style>
         body {
             margin: 0;
@@ -15,7 +15,6 @@
             background-color: #f5f5f5;
             font-family: "Outfit", Arial, sans-serif;
         }
-
 
         .container {
             width: 100%;
@@ -34,43 +33,6 @@
             padding: 0px 24px;
         }
 
-        .cta {
-            text-align: center;
-            margin: 30px 0;
-        }
-
-        .cta img {
-            max-width: 150px;
-        }
-
-        .cta p {
-            font-size: 20px;
-            font-weight: 600;
-            color: #2776EA;
-        }
-
-        .cta a img {
-            max-width: 200px;
-        }
-
-        .contact-info {
-            padding: 20px 30px;
-            background-color: #ffffff;
-            text-align: left;
-        }
-
-        .contact-info p {
-            font-size: 16px;
-            color: #0C0417;
-            line-height: 24px;
-            margin: 10px 0;
-        }
-
-        .contact-info img {
-            width: 24px;
-            margin-right: 10px;
-        }
-
         .footer {
             padding: 32px 24px;
             background-color: #525F85;
@@ -78,6 +40,60 @@
 
         a {
             text-decoration: none;
+        }
+
+        /* Fluid Typography for Mobile (Maintains Desktop Layout but fits screen) */
+        @media screen and (max-width: 600px) {
+
+            /* Scale down headings */
+            h1 {
+                font-size: 20px !important;
+            }
+
+            h2 {
+                font-size: 16px !important;
+            }
+
+            /* Scale down body text */
+            p,
+            span,
+            a,
+            strong {
+                font-size: 13px !important;
+                line-height: 1.4 !important;
+            }
+
+            /* Reduce padding to give columns more space */
+            .contact-info {
+                padding: 15px !important;
+            }
+
+            .header {
+                padding: 20px 15px !important;
+            }
+
+            .content {
+                padding: 0 10px !important;
+            }
+
+            /* Ensure images fit */
+            img {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            /* Specific fix for Account Details to fit side-by-side */
+            td[style*="background: #FFFFFFCC"] {
+                padding: 12px !important;
+            }
+
+            td[style*="padding-left:10px"] {
+                padding-left: 5px !important;
+            }
+
+            td[style*="padding-right:10px"] {
+                padding-right: 5px !important;
+            }
         }
     </style>
     <!--[if mso]>
@@ -97,102 +113,44 @@
         <table class="content" cellpadding="0" cellspacing="0"
             style="max-width: 600px; background-color: #ffffff; margin: 0 auto; border-radius: 8px; overflow: hidden; padding: 0px 24px; width: 100%;">
             <tr>
-                <td class="header" bgcolor="#29A0C6"
-                    style="background-color: #29A0C6; background: linear-gradient(135deg, #29A0C6 10%, #53B4DE 90%); padding: 40px 30px 60px 30px; text-align: center; border-radius: 0 0 16px 16px;">
-                    <!--[if gte mso 9]>
-                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:250px;">
-                    <v:fill type="gradient" color="#53B4DE" color2="#29A0C6" angle="135" />
-                    <v:textbox inset="0,0,0,0">
-                    <![endif]-->
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <td align="center">
+                    <!-- Banner Image -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                             <td align="center">
-                                <table role="presentation" border="0" cellpadding="0" cellspacing="0"
-                                    style="background-color: #FFFFFF; border: 1px solid #EEF9FA; border-radius: 8px;">
-                                    <tr>
-                                        <td align="center" style="padding: 2px 20px; height: 32px;">
-                                            <img src="https://starthubcenters.com/wp-content/uploads/2022/12/siteLoogg.png"
-                                                alt="StartHub Logo" width="80" height="28"
-                                                style="display: block; border: 0;" />
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-
-                    <h1
-                        style="font-size: 24px; font-weight: 600; color: #FFFFFF; margin: 16px 0 0 0; line-height: normal; letter-spacing: 1px;">
-                        Your StartHub Office is Live !</h1>
-                    <center>
-                        <table role="presentation" border="0" cellpadding="0" cellspacing="0"
-                            style="margin: 14px auto 0px auto;">
-                            <tr>
-                                <td align="center" bgcolor="#4CCB60"
-                                    style="background-color: #4CCB60; border-radius: 24px; padding: 4px 16px;">
-                                    <p
-                                        style="margin: 0; font-size: 14px; font-weight: 600; color: #FFFFFF; letter-spacing: 1px; line-height: normal; white-space: nowrap;">
-                                        ✔ You are all set!
-                                    </p>
-                                </td>
-                            </tr>
-                        </table>
-                    </center>
-                    <!--[if gte mso 9]>
-                    </v:textbox>
-                    </v:rect>
-                    <![endif]-->
-                </td>
-            </tr>
-
-            <tr>
-                <td align="center" style="padding:24px 65px;">
-                    <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin-top: -55px;">
-                        <tr>
-                            <!-- FIRST IMAGE -->
-                            <td width="33.33%" align="center" valign="middle">
-                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769118598/Frame_1171275749_2_dtcrud.png"
-                                    width="116" height="86" alt="Image 1"
-                                    style="display:block; border:0; margin:0 auto;" />
-                            </td>
-
-                            <!-- SECOND (MIDDLE) IMAGE -->
-                            <td width="33.33%" align="center" valign="middle">
-                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769118725/Frame_1171275749_2_1_uspquo.png"
-                                    width="147" height="100" alt="Image 2"
-                                    style="display:block; border:0; margin:0 auto;" />
-                            </td>
-
-                            <!-- THIRD IMAGE -->
-                            <td width="33.33%" align="center" valign="middle">
-                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769118775/Frame_1171275751_1_ulmpvg.png"
-                                    width="111" height="86" alt="Image 3"
-                                    style="display:block; border:0; margin:0 auto;" />
+                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769336334/Group_47245_1_cgseno.png"
+                                    alt="Banner" width="576" height="297"
+                                    style="display:block; width:100%; max-width: 576px; min-width: 576px; border:0; border-radius:16px;" />
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
 
+            <!-- Intro Info -->
             <tr>
                 <td style="padding:0px 0px 0px 0px">
-                    <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                    <table width="100%" cellpadding="0" cellspacing="0" role="presentation"
+                        style="background: #F5F9FA; background-color: #F5F9FA; border-radius:0 24px 24px 0 !important; padding: 32px 32px 32px 0px; ">
                         <tr>
                             <!-- LEFT: TEXT -->
-                            <td width="60%" valign="top" style="padding-right:0px;">
-                                <h2 style="margin:10px 0 6px; font-size:20px; color:#212C3B; font-weight: 600;">
-                                    Membership Details
-                                </h2>
-                                <p style="margin:0; color:#88929D; font-size:15px; line-height: 20px;">
-                                    Below you can find more details regarding your plan and quick links to manage your
-                                    account.
+                            <td width="55%" valign="middle"
+                                style="background: #FFFFFF; background-color: #FFFFFF; border-radius:0 16px 16px 0 !important; padding: 32px;">
+                                <p
+                                    style="margin:0; color:#55637399; font-size:16px; line-height: normal; font-weight: 400; letter-spacing: 1%;">
+                                    This is your office, your
+                                    <strong style="color: #556373; font-weight: 400;">
+                                        live answering department, mail department,
+                                        meeting room &
+                                        support team..
+                                    </strong> all from your dashboard
                                 </p>
                             </td>
 
                             <!-- RIGHT: IMAGE -->
-                            <td width="40%" valign="top" align="right">
-                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769083812/OBJECTS_btnntg.png"
-                                    alt="Membership" width="180" height="91"
+                            <td width="45%" valign="middle" align="right">
+                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769337473/Frame_1171275580_nazok2.png"
+                                    alt="Membership" width="187" height="143"
                                     style="display:block; max-width:100%; height:auto; border:0;" />
                             </td>
                         </tr>
@@ -200,362 +158,169 @@
                 </td>
             </tr>
 
-            <!-- Account Overview -->
+            <!-- Cards Templates -->
+
             <tr>
-                <td style="padding:24px 0px 0px 0px">
-                    <table width="100%" cellpadding="0" cellspacing="0"
-                        style="background:#EDF8FA; border-radius:12px; border: 1px solid #2BBAE1">
+                <td align="center" style="padding:40px 0px 40px 0px">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td style="padding:22px 24px;">
-                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                            <!-- CARD 1 -->
+                            <td align="center" width="33.33%" style="padding-right:8px;">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                    style="background-color:#FFFFFF;border-radius:12px; border:1px solid #E6F2F6; padding: 32px 0px ;">
                                     <tr>
-                                        <!-- LEFT LINE -->
-                                        <td width="30%" valign="middle">
-                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <td
-                                                        style="height:1px; background:#C1EAF5; font-size:0; line-height:0;">
-                                                        &nbsp;</td>
-                                                </tr>
-                                            </table>
-                                        </td>
+                                        <td align="center">
+                                            <h3
+                                                style="margin:0 0 40px 0; font-size:14px; font-weight:500; color:#212C3B; line-height: 100%; letter-spacing: 1%;">
+                                                Mail Handling
+                                            </h3>
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769339454/OBJECTS_dfwxej.png"
+                                                alt="Live Answering" width="105" height="68"
+                                                style="display:block;margin:0 auto 40px auto;border:0;" />
 
-                                        <!-- CENTER TEXT -->
-                                        <td width="40%" align="center" valign="middle">
-                                            <h2
-                                                style="margin:0; font-size:18px; color:#212C3B; line-height: 100%; letter-spacing: 1%; font-weight: 600;">
-                                                Account Overview
-                                            </h2>
+                                            <a href="#" style="text-decoration:none;">
+                                                <strong style="display:inline-block; font-size:13px; line-height: 100%; padding:6.5px 31px; border:2px solid #92C3D24D;
+                  border-radius:8px; color:#2D3745; text-decoration:none; font-weight:500; background: #FFFFFF;">
+                                                    Explore
+                                                </strong>
+                                            </a>
                                         </td>
+                                    </tr>
+                                </table>
+                            </td>
 
-                                        <!-- RIGHT LINE -->
-                                        <td width="30%" valign="middle">
-                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <td
-                                                        style="height:1px; background:#C1EAF5; font-size:0; line-height:0;">
-                                                        &nbsp;</td>
-                                                </tr>
-                                            </table>
+                            <!-- CARD 2 -->
+                            <td align="center" width="33.33%" style="padding-left:8px; padding-right:8px;">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                    style="background-color:#FFFFFF;border-radius:12px; border:1px solid #E6F2F6; padding: 32px 0px ;">
+                                    <tr>
+                                        <td align="center">
+                                            <h3
+                                                style="margin:0 0 40px 0; font-size:14px; font-weight:500; color:#212C3B; line-height: 100%; letter-spacing: 1%;">
+                                                Live Answering
+                                            </h3>
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769341529/OBJECTS_1_k4ubka.png"
+                                                alt="Mail Handling" width="105" height="68"
+                                                style="display:block;margin:0 auto 40px auto;border:0;" />
+                                            <a href="#" style="text-decoration:none;">
+                                                <strong style="display:inline-block; font-size:13px; line-height: 100%; padding:6.5px 31px; border:2px solid #92C3D24D;
+                  border-radius:8px; color:#2D3745; text-decoration:none; font-weight:500; background: #FFFFFF;">
+                                                    Explore
+                                                </strong>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <!-- CARD 3 -->
+                            <td align="center" width="33.33%" style="padding-left:8px;">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                    style="background-color:#FFFFFF;border-radius:12px; border:1px solid #E6F2F6; padding: 32px 0px ;">
+                                    <tr>
+                                        <td align="center">
+                                            <h3
+                                                style="margin:0 0 40px 0; font-size:14px; font-weight:500; color:#212C3B; line-height: 100%; letter-spacing: 1%;">
+                                                Meeting Room
+                                            </h3>
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769341589/Group_47243_p4kkvn.png"
+                                                alt="Meeting Room" width="105" height="68"
+                                                style="display:block;margin:0 auto 40px auto;border:0;" />
+                                            <a href="#" style="text-decoration:none;">
+                                                <strong style="display:inline-block; font-size:13px; line-height: 100%; padding:6.5px 31px; border:2px solid #92C3D24D;
+                  border-radius:8px; color:#2D3745; text-decoration:none; font-weight:500; background: #FFFFFF;">
+                                                    Explore
+                                                </strong>
+                                            </a>
                                         </td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
-                        <!-- Contact Info -->
-                        <tr>
-                            <td style="padding:0px 24px 20px 24px; border-bottom: 1px solid #C1EAF5;">
-                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                    <tr>
-                                        <!-- LEFT ICON -->
-                                        <td width="28%" valign="middle" style="text-align:center;">
-                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769091499/User_avgqvz.png"
-                                                alt="User" width="24" height="24"
-                                                style="display:block; margin:0 auto 6px auto; border:0;" />
-                                            <strong
-                                                style="color:#212C3B; font-weight: 600; line-height: 100%; letter-spacing: 1%; font-size:14px;">Contact
-                                                Info</strong>
-                                        </td>
-
-                                        <!-- RIGHT INFO -->
-                                        <td width="72%" valign="top" align="left"
-                                            style="background: #FFFFFFCC; padding:24px 32px; border-radius:16px;">
-                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <!-- NAME -->
-                                                    <td width="50%" style="padding-right:10px;">
-                                                        <p style="margin:0; line-height: 100%;">
-                                                            <span
-                                                                style="color: #6F7680; line-height: 100%; font-weight: 400; font-size: 12px; letter-spacing: 1%; display: block; margin-bottom: 8px;">
-                                                                Name
-                                                            </span>
-
-                                                            <span
-                                                                style="color:#212C3B; font-size: 14px; font-weight: 600; letter-spacing: 1%; line-height: 100%; font-weight: 600; display: block;">
-                                                                Michael John
-                                                            </span>
-                                                        </p>
-                                                    </td>
-
-                                                    <!-- PHONE -->
-                                                    <td width="50%" style="padding-left:10px;">
-                                                        <p style="margin:0; line-height: 100%;">
-                                                            <span
-                                                                style="color: #6F7680; line-height: 100%; font-weight: 400; font-size: 12px; letter-spacing: 1%; display: block; margin-bottom: 8px;">
-                                                                Phone
-                                                            </span>
-
-                                                            <span
-                                                                style="color:#212C3B; font-size: 14px; font-weight: 600; letter-spacing: 1%; line-height: 100%; font-weight: 600; display: block;">
-                                                                +1 (510) 4567-765
-                                                            </span>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
-                                                <!-- EMAIL -->
-                                                <tr>
-                                                    <td colspan="2" style="padding-top: 12px;">
-                                                        <p style="margin:0; line-height: 100%;">
-                                                            <span
-                                                                style="color: #6F7680; line-height: 100%; font-weight: 400; font-size: 12px; letter-spacing: 1%; display: block; margin-bottom: 8px;">
-                                                                Email
-                                                            </span>
-                                                            <span
-                                                                style="color:#212C3B; font-size: 14px; font-weight: 600; letter-spacing: 1%; line-height: 100%; font-weight: 600; display: block;">
-
-                                                                michael@gmail.com
-                                                            </span>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <!-- Membership info -->
-
-                        <tr>
-                            <td style="padding:20px 24px 20px 24px; border-bottom: 1px solid #C1EAF5;">
-                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                    <tr>
-                                        <!-- LEFT ICON -->
-                                        <td width="28%" valign="middle" style="text-align:center;">
-                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769097438/personalcard_uiy9rj.png"
-                                                alt="User" width="24" height="24"
-                                                style="display:block; margin:0 auto 6px auto; border:0;" />
-                                            <strong
-                                                style="color:#212C3B; font-weight: 600; line-height: 100%; letter-spacing: 1%; font-size:14px;">
-                                                Membership <br> Info
-                                            </strong>
-                                        </td>
-
-                                        <!-- RIGHT INFO -->
-                                        <td width="72%" valign="top" align="left"
-                                            style="background: #FFFFFFCC; padding:24px 32px; border-radius:16px;">
-                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <!-- Starting Date -->
-                                                    <td width="50%" style="padding-right:10px;">
-                                                        <p style="margin:0; line-height: 100%;">
-                                                            <span
-                                                                style="color: #6F7680; line-height: 100%; font-weight: 400; font-size: 12px; letter-spacing: 1%; display: block; margin-bottom: 8px;">
-                                                                Starting Date
-                                                            </span>
-
-                                                            <span
-                                                                style="color:#212C3B; font-size: 14px; font-weight: 600; letter-spacing: 1%; line-height: 100%; font-weight: 600; display: block;">
-                                                                11 Jan, 2025
-                                                            </span>
-                                                        </p>
-                                                    </td>
-
-                                                    <!--  Plan -->
-                                                    <td width="50%" style="padding-left:10px;">
-                                                        <p style="margin:0; line-height: 100%;">
-                                                            <span
-                                                                style="color: #6F7680; line-height: 100%; font-weight: 400; font-size: 12px; letter-spacing: 1%; display: block; margin-bottom: 8px;">
-                                                                Plan
-                                                            </span>
-
-                                                            <span
-                                                                style="color:#212C3B; font-size: 14px; font-weight: 600; letter-spacing: 1%; line-height: 100%; font-weight: 600; display: block;">
-                                                                Premium
-                                                            </span>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <!-- Initial Term Length -->
-                                                    <td width="50%" style="padding-right:10px; padding-top:12px;">
-                                                        <p style="margin:0; line-height:100%;">
-                                                            <span
-                                                                style="color:#6F7680; font-size:12px; display:block; margin-bottom:8px;">
-                                                                Initial Term Length
-                                                            </span>
-                                                            <span
-                                                                style="color:#212C3B; font-size:14px; font-weight:600; display:block;">
-                                                                6 Months
-                                                            </span>
-                                                        </p>
-                                                    </td>
-
-                                                    <!-- Dashboard Link -->
-                                                    <td width="50%" style="padding-left:10px; padding-top:12px;">
-                                                        <p style="margin:0; line-height:100%;">
-                                                            <span
-                                                                style="color:#6F7680; font-size:12px; display:block; margin-bottom:8px;">
-                                                                Dashboard Link
-                                                            </span>
-                                                        </p>
-                                                        <table cellpadding="0" cellspacing="0" role="presentation"
-                                                            style="display:inline-table;">
-                                                            <tr>
-                                                                <td style="padding-right:6px;">
-                                                                    <a href="#"
-                                                                        style="text-decoration:none; color:#212C3B; font-size:14px; font-weight:600;">
-                                                                        starthubcenters.com
-                                                                    </a>
-                                                                </td>
-                                                                <td valign="middle">
-                                                                    <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769097709/export_rreggc.png"
-                                                                        alt="Link Icon" width="12" height="12"
-                                                                        style="display:block; border:0; padding-top: 2px;" />
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                        <!-- Address -->
-                        <tr>
-                            <td style="padding:20px 24px 20px 24px; border-bottom: 1px solid #C1EAF5;">
-                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                    <tr>
-                                        <!-- LEFT ICON -->
-                                        <td width="28%" valign="middle" style="text-align:center;">
-                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769101677/Icon_fy7jz5.png"
-                                                alt="User" width="24" height="24"
-                                                style="display:block; margin:0 auto 6px auto; border:0;" />
-                                            <strong
-                                                style="color:#212C3B; font-weight: 600; line-height: 100%; letter-spacing: 1%; font-size:14px;">
-                                                Business <br> Address
-                                            </strong>
-                                        </td>
-
-                                        <!-- RIGHT INFO -->
-                                        <td width="72%" valign="top" align="left"
-                                            style="background: #FFFFFFCC; padding:24px 32px; border-radius:16px;">
-                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <!-- Starting Date -->
-                                                    <td width="95%" style="padding-right:10px;">
-                                                        <p style="margin:0; line-height: 100%;">
-                                                            <span
-                                                                style="color: #6F7680; line-height: 100%; font-weight: 400; font-size: 14px; letter-spacing: 1%; display: block; margin-bottom: 0px;">
-                                                                1901 Pennsylvania AveSuite 900 #TBD - Washington, D.C.
-                                                                20006
-                                                            </span>
-                                                        </p>
-                                                    </td>
-
-                                                    <!--  Plan -->
-                                                    <td width="5%" style="padding-left:10px;">
-                                                        <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769101757/Copy_pfefmu.png"
-                                                            alt="Link Icon" width="14" height="14"
-                                                            style="display:block; border:0; padding-top: 2px; margin: 0;" />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                        <!-- Services -->
-                        <tr>
-                            <td style="padding:20px 24px 22px 24px;">
-                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                    <tr>
-                                        <!-- LEFT ICON -->
-                                        <td width="28%" valign="middle" style="text-align:center;">
-                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769103398/Icon_wcyaki.png"
-                                                alt="User" width="24" height="24"
-                                                style="display:block; margin:0 auto 6px auto; border:0;" />
-                                            <strong
-                                                style="color:#212C3B; font-weight: 600; line-height: 100%; letter-spacing: 1%; font-size:14px;">
-                                                Live <br> Answering
-                                            </strong>
-                                        </td>
-
-                                        <!-- RIGHT INFO -->
-                                        <td width="72%" valign="top" align="left"
-                                            style="background: #FFFFFFCC; padding:24px 32px; border-radius:16px;">
-                                            <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <!-- Starting Date -->
-                                                    <td width="50%" style="padding-right:2px;">
-                                                        <p
-                                                            style="margin:0; font-size: 14px; font-weight: 500; line-height: 20px; letter-spacing: 1%; color: #556373;">
-                                                            Virtual Number: &nbsp;<strong
-                                                                style="border: 1px solid #77D886; background: #DBF5DF; border-radius: 10px; color: #212C3B; font-size: 12px; line-height: 120%; font-weight: 600; padding: 6px 8px;">Yes</strong>
-                                                        </p>
-                                                    </td>
-
-                                                    <!--  Plan -->
-                                                    <td width="50%" style="padding-left:10px;">
-                                                        <p
-                                                            style="margin:0; font-size: 14px; font-weight: 500; line-height: 20px; letter-spacing: 1%; color: #556373;">
-                                                            Call Reports:&nbsp;
-                                                            <strong
-                                                                style="border: 1px solid #77D886; background: #DBF5DF; border-radius: 10px; color: #212C3B; font-size: 12px; line-height: 120%; font-weight: 600; padding: 6px 8px;">Yes</strong>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
                     </table>
+
                 </td>
             </tr>
 
-            <!-- Password CTA -->
+            <!-- Locations Cards -->
             <tr>
-                <td style="padding:40px 0px 32px 0px;">
-                    <table width="100%" cellpadding="0" cellspacing="0"
-                        style="background:#FCEFEF; border:1px solid #D95D5D; border-radius:16px;">
+                <td align="center" style="padding:0px 0px 40px 0px">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td style="padding:20px;">
-                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                            <!-- CARD 1 -->
+                            <td align="left" width="50%" style="padding-right:16px;">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                    style="background-color:#4CBBCB1A; border-radius:12px; border:1px solid #2BBAE1; padding: 32px 24px; ">
                                     <tr>
-                                        <!-- LEFT: TEXT -->
-                                        <td width="65%" valign="middle">
-                                            <table cellpadding="0" cellspacing="0" role="presentation">
-                                                <tr>
-                                                    <!-- ICON -->
-                                                    <td valign="middle" style="padding-right:8px;">
-                                                        <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769104935/password-check_yw5vii.png"
-                                                            alt="Security" width="18" height="18"
-                                                            style="display:block; border:0;" />
-                                                    </td>
+                                        <td align="left">
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769350191/location_bi5abl.png"
+                                                alt="Your Office Location" width="32" height="32"
+                                                style="display:block;  border:0;" />
+                                            <h2
+                                                style="font-size:18px; font-weight:600; color:#212C3B; line-height: 100%; letter-spacing: 1%;  margin: 12px 0px 0px 0px;">
+                                                Your Office Location
+                                            </h2>
+                                            <p
+                                                style="color: #556373B2; line-height: 20px; font-size: 14px; letter-spacing: 1%; font-weight: 400; margin: 10px 0px 0px 0px;">
+                                                1901 Pennsylvania NW PMB#TBD Washington, D.C. 20006
+                                            </p>
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769350016/4794192_51818_1_atbjyh.png"
+                                                alt="Live Answering" width="212" height="144"
+                                                style="display:block;margin:24px 0px; border:0;" />
 
-                                                    <!-- HEADING -->
+                                            <a href="#" style="text-decoration:none; width: 100%;">
+                                                <strong style="display:inline-block; font-size:14px; line-height: 120%; padding:7px 70px; 
+                  border-radius: 6px; color:#FFFFFF; text-decoration:none; font-weight:600; background: #4CBBCB;">
+                                                    See on Map
+                                                </strong>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <!-- CARD 2 -->
+                            <td align="left" width="50%" style="padding-left:16px;">
+                                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                    style="background-color:#4CBBCB1A; border-radius:12px; border:1px solid #2BBAE1; padding: 32px 24px;">
+                                    <tr>
+                                        <td align="left">
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769350930/dashboard-circle--app-application-dashboard-home-layout-circle_zfduv5.png"
+                                                alt="Your Office Location" width="20" height="20"
+                                                style="display:block;  border:0; " />
+                                            <h2
+                                                style="font-size:18px; font-weight:600; color:#212C3B; line-height: 100%; letter-spacing: 1%;  margin: 24px 0px 0px 0px;">
+                                                Access Your Dashboard
+                                            </h2>
+                                            <table cellpadding="0" cellspacing="0" role="presentation"
+                                                style="display:inline-table; padding-top: 10px;">
+                                                <tr>
+                                                    <td valign="middle" style="padding-right:6px;">
+                                                        <a href="#"
+                                                            style="color: #556373B2; line-height: 20px; font-size: 14px; letter-spacing: 1%; font-weight: 400;">
+                                                            www.starthubceners.com
+                                                        </a>
+                                                    </td>
                                                     <td valign="middle">
-                                                        <strong
-                                                            style=" color:#212C3B; font-size:16px; font-weight:600; letter-spacing:1%; line-height:100%;">
-                                                            Haven't Setup Your Password Yet?
-                                                        </strong>
+                                                        <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769354765/export_unmncu.png"
+                                                            alt="Link Icon" width="12" height="12"
+                                                            style="display:block; border:0; padding-top: 2px;" />
                                                     </td>
                                                 </tr>
                                             </table>
 
                                             <p
-                                                style=" margin:8px 0 0; font-size:14px; color:#556373B2; font-weight:400; letter-spacing:1%; line-height:100%;">
-                                                Simply follow the "Forgot Password" link to create your password.
+                                                style="color: #556373B2; line-height: 20px; font-size: 14px; letter-spacing: 1%; font-weight: 400; margin: 0px">
+                                                (Use your amail for login)
                                             </p>
-                                        </td>
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769351086/Frame_1171275749_1_aqrnrl.png"
+                                                alt="Live Answering" width="222" height="144"
+                                                style="display:block;margin:24px 0px; border:0;" />
 
-                                        <!-- RIGHT: BUTTON -->
-                                        <td width="35%" valign="middle" align="right">
-                                            <a href="#" style="text-decoration:none;">
-                                                <strong
-                                                    style="background:#FFFFFF; color:#2D3745; padding:10px 23px; border-radius:12px; border: 2px solid #92C3D24D; 
-                                            text-decoration:none; line-height: 100%; font-size:13px; font-weight:500; display:inline-block;">
-                                                    Set Password Now
+                                            <a href="#" style="text-decoration:none; width: 100%;">
+                                                <strong style="display:inline-block; font-size:14px; line-height: 120%; padding:7px 58px; 
+                  border-radius: 6px; color:#FFFFFF; text-decoration:none; font-weight:600; background: #4CBBCB;">
+                                                    Visit Dashboard
                                                 </strong>
                                             </a>
                                         </td>
@@ -571,28 +336,45 @@
             <tr>
                 <td class="main-content" style="padding-bottom: 32px;">
                     <table width="100%" cellpadding="0" cellspacing="0"
-                        style="background:#EDF8FA; border-radius:12px; border: 1px solid #2BBAE1;">
+                        style="background:#F5F9FA; border-radius:16px; border: 1px solid #BBC9CD;">
                         <tr>
-                            <td align="center" style="padding:32px;">
-                                <strong
-                                    style="font-size:16px; color: #212C3B; font-weight: 600; line-height: 100%; letter-spacing: 1%;">
-                                    Book a Meeting with Us</strong>
+                            <td align="left" style="padding:32px 24px;">
+                                <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                    <tr>
+                                        <!-- LEFT: TEXT -->
+                                        <td width="60%" valign="middle" style="padding-right:0px;">
+                                            <h2
+                                                style="font-size:18px; color:#212C3B; font-weight: 600; line-height: 100%; letter-spacing: 1%;">
+                                                Membership Details
+                                            </h2>
 
-                                <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769105723/profile-2user_jcixno.png"
-                                    alt="User" width="40" height="40"
-                                    style="display:block; margin:14px auto 0px auto; border:0;" />
+                                        </td>
+
+                                        <!-- RIGHT: IMAGE -->
+                                        <td width="40%" valign="middle" align="right">
+                                            <img src="https://res.cloudinary.com/dgstbxgwt/image/upload/v1769352661/arrow-right_f27hgk.png"
+                                                alt="User" width="32" height="32" style="display:block; border:0;" />
+                                        </td>
+                                    </tr>
+                                </table>
 
                                 <p
-                                    style="margin:14px 0 20px; font-size:14px; color:#556373B2; font-weight: 400;  line-height: 100%; letter-spacing: 1%;">
-                                    Need to use our meeting rooms? Visit your dashboard.
+                                    style="margin:12px 0 24px; font-size:14.5px; color:#556373B2; font-weight: 400; line-height: 19px; letter-spacing: 1%; padding-right: 20px;">
+                                    Our team is setting up your Starthub account right now. You’ll receive a
+                                    <strong style="font-weight: 500; color: #556373;">confirmation email</strong> soon
+                                    with your
+                                    dashboard credentials and
+                                    everything you need to
+                                    get started
                                 </p>
 
-                                <a href="#" style="text-decoration:none;">
-                                    <strong
-                                        style="background:#FFFFFF; color:#2D3745; padding:10px 23px; border-radius:12px; border: 2px solid #92C3D24D; line-height: 100%; font-size:13px; font-weight:500; display:inline-block;">
-                                        Access Dashboard
-                                    </strong>
-                                </a>
+                                <p
+                                    style="background: #FFFFFF; border-radius: 12px; padding: 14px 16px; color: #556373B2; font-size:14px; font-weight: 400; line-height: 20px; letter-spacing: 1%; margin: 0px; ">
+                                    <strong style="font-weight: 500; color: #556373;">Signed up outside office
+                                        hours?</strong>
+                                    <br>
+                                    No worries — your account will be activated the next business day.
+                                </p>
                             </td>
                         </tr>
                     </table>
@@ -752,7 +534,7 @@
                                 <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
                                     <tr>
                                         <td width="30%" align="left" style="font-size:11px;">
-                                            <p style="color:#FFFFFF80; text-decoration:none;">
+                                            <p style="color:#FFFFFF80; text-decoration:none; margin: 0;">
                                                 Unsubscribe
                                             </p>
                                         </td>
@@ -762,7 +544,7 @@
                                         </td>
 
                                         <td width="55%" align="left" style="font-size:11px;">
-                                            <p style="color:#FFFFFF80; text-decoration:none;">
+                                            <p style="color:#FFFFFF80; text-decoration:none; margin: 0;">
                                                 Manage Preferences
                                             </p>
                                         </td>
